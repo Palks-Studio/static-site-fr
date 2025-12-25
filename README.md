@@ -35,7 +35,7 @@ designed to be:
 - extensible without unnecessary complexity  
 - maintainable over the long term
 
---
+---
 
 ## Foundation content
 
