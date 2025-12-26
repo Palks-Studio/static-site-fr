@@ -1,5 +1,5 @@
 ```
-/static_site/
+/static_site_fr/
 │
 ├── index.html                        → Page d’accueil principale (présentation du socle)
 ├── a-propos.html                     → À propos : philosophie et vision du projet
@@ -30,7 +30,7 @@
 
 
 ```
-/static_site/
+/static_site_fr/
 │
 ├── index.html                        → Main homepage (project overview)
 ├── a-propos.html                     → About page: philosophy and project vision
