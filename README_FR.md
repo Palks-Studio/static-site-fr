@@ -8,10 +8,10 @@
 
 # Palks Studio — Fondation de Site Web Statique Professionnel
 
-Base complète de site web statique conçue pour servir de **fondation claire, autonome et durable**  
+Base complète de site web statique conçue pour servir de fondation claire, autonome et durable  
 à des projets professionnels, techniques ou éditoriaux.
 
-Ce socle s’adresse à des **développeurs, intégrateurs ou équipes techniques**  
+Ce socle s’adresse à des développeurs, intégrateurs ou équipes techniques  
 souhaitant conserver un contrôle total sur leur code,  
 sans dépendre de frameworks lourds, de CMS ou de services tiers.
 
@@ -27,13 +27,45 @@ https://demo-en.palks-studio.com
 
 ---
 
+## Structure du projet
+
+```
+/static_site_fr/
+│
+├── index.html                        → Page d’accueil principale (présentation du socle)
+├── a-propos.html                     → À propos : philosophie et vision du projet
+├── approche.html                     → Approche de conception et principes techniques
+├── ressources.html                   → Ressources, références et bonnes pratiques
+├── liens.html                        → Liens externes et ressources complémentaires
+├── contact.html                      → Page de contact et informations de prise de contact
+├── conditions-utilisation.html       → Conditions d’utilisation et cadre d’usage
+├── mentions-legales.html             → Mentions légales obligatoires
+├── politique-confidentialite.html    → Politique de confidentialité et données
+│
+├── assets/
+│   ├── css/
+│   │   └── style.css                 → Feuille de styles globale (modifiable ou intégrable)
+│   └── img/                          → Images, icônes et visuels du site
+│
+├── site.webmanifest                  → Manifest PWA (optionnel, personnalisable)
+│
+├── robots.txt                        → Règles d’exploration pour les moteurs de recherche
+├── sitemap.xml                       → Plan du site pour l’indexation SEO
+│
+├── README.md                         → Documentation d’utilisation et personnalisation
+└── LICENCE.md                        → Conditions d’utilisation et cadre légal
+```
+
+
+---
+
 ## Objectif du projet
 
-Ce projet fournit une **structure HTML / CSS propre, lisible et maintenable**  
+Ce projet fournit une structure HTML / CSS propre, lisible et maintenable  
 permettant de démarrer rapidement un site sérieux, structuré et évolutif.
 
 Il ne s’agit pas d’un thème graphique figé,  
-mais d’une **base technique volontairement sobre**,  
+mais d’une base technique volontairement sobre,  
 pensée pour être :  
 
 - comprise rapidement  
@@ -58,9 +90,6 @@ Le projet inclut notamment :
 - Des commentaires repères pour la personnalisation  
 - Une documentation d’utilisation  
 - Une licence d’utilisation claire
-
-La structure complète du projet est fournie à titre d’exemple  
-dans le fichier `public_version/example_structure.txt`.
 
 Aucune dépendance externe n’est imposée.
 
